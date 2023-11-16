@@ -1,0 +1,119 @@
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: #222;
+    padding: 20px 0px;
+}
+
+footer ul li a {
+    color: #eee;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #aaa;
+}
+
+.div__footer__links {
+    /* background: red; */
+    display: flex;
+    position: relative;
+    top: 50px;
+}
+
+
+.div__footer__links h3 {
+    color: whitesmoke;
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    transform: scaleX(1.1);
+    -webkit-transform: scaleX(1.1);
+    -moz-transform: scaleX(1.1);
+    -ms-transform: scaleX(1.1);
+    -o-transform: scaleX(1.1);
+    position: relative;
+    top: -50px;
+    left: 280px;
+}
+
+/* .div__footer__links h3:hover{
+    cursor: pointer; */
+
+.div__footer__links ul {
+    text-align: center;
+    align-items: center;
+
+}
+
+.div__footer__container ul li {
+    list-style: none;
+    padding-top: 5px;
+}
+
+.div__footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div__footer__img {
+    background-image: url("../assets/shop.jpeg");
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    border: 1px solid white;
+    box-shadow:1px 1px 7px rgba(255, 255, 255, 0.6);
+}
+
+.div__footer__contacto a {
+    text-decoration: none;
+    color: #fff;
+   
+}
+
+.div__footer__mapa {
+    /*margin-top: 20px;
+    */
+    margin-top: 5px;
+    /* margin-bottom: -5px; */
+    box-shadow: 1px 1px 7px rgba(255, 255, 255, 0.6);
+}
+
+@media (min-width:968px) and (max-width:1261px) {
+    .div__footer__links {
+        position: relative;
+        right: 100px;
+    }
+
+    .div__footer__links h3 {
+        padding-right: 70px;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .div__footer__img {
+        position: relative;
+        top: 50px;
+        left: 20px;
+        width: 300px;
+        height: 210px;
+        transform: scaleX(1.2);
+        -webkit-transform: scaleX(1.2);
+        -moz-transform: scaleX(1.2);
+        -ms-transform: scaleX(1.2);
+        -o-transform: scaleX(1.2);
+      
+    }
+    .div__footer__contacto  a{
+        position: relative;
+        bottom: 10px;
+    }
+    
+    .div__footer__mapa{
+        position: relative;
+        top: -10px;
+    }
+
+}

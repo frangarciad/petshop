@@ -1,0 +1,19 @@
+.section__itemContainer {
+    overflow-y: scroll;
+    background-color: #eee;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media (min-width:968px) and (max-width:1260px){
+    .section__itemContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* justify-content: ceknter; */
+        align-items: center;
+
+    }
+}
